@@ -1,0 +1,59 @@
+#include <cstdio>
+#include <iostream>
+#include <string>
+#include <stdlib.h>
+#include <sstream>
+#include <windows.h>
+#include <locale.h>
+#include <fstream>
+#include "class_counter.cpp"
+
+
+
+
+int main()
+{
+
+	//SetConsoleOutputCP(65001);
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	int buf_int;
+	std::string yes = "да";
+	std::string no = "нет";
+	std::string stop = "х";
+	std::string buff_console;
+	std::string up_c = "+";
+	std::string down_c = "-";
+	std::string show_c = "=";
+
+
+	Counter counter1;
+
+	std::cout << "Вы хотите указать начальное значение счётчика? Введите да или нет: "; std::cin >> buff_console;
+	if (buff_console == yes) {
+		std::cout << "Введите начальное значение счётчика: " << std::endl; std::cin >> buf_int;
+		counter1.set_counter(buf_int);
+	}
+
+
+	while (true)
+	{
+		std::cout << "Введите команду ('+', '-', '=' или 'x'): ";
+		std::cin >> buff_console;
+		if (buff_console == stop) { std::cout << "До свидания!"; break; }
+		else if (buff_console == up_c) { counter1.up_counter(); }
+		else if (buff_console == down_c) { counter1.down_counter(); }
+		else if (buff_console == show_c) { counter1.print_counter(); }
+		else { std::cout << "неизвестная команда" << std::endl; continue; }
+	}
+
+
+	/*	+: увеличьте счётчик на 1
+		- : уменьшите счётчик на 1
+		= : выведите текущее значение счётчика
+		x : завершите работу программы*/
+
+
+
+return 0;
+}

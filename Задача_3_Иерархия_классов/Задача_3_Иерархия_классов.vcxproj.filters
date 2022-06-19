@@ -42,7 +42,7 @@
     <ClCompile Include="classTriagle.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="Parallelogram.cpp">
+    <ClCompile Include="classParallelogram.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="class_Isosceles_triangle.cpp">

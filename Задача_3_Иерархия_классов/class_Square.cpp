@@ -1,4 +1,4 @@
-﻿#include "Header.h"
+﻿#include "Square.h"
 
 
 Square::Square(int a) :My_Rectangle(a, a)

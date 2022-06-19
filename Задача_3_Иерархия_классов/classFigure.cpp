@@ -1,4 +1,4 @@
-﻿#include "Header.h"
+﻿#include "Figure.h"
 
 
 Figure::Figure() { sides_count = 0; this->name = "Фигура:"; }

@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Header.h"
+#include "Triagle.h"
 
 class Equilateral_triangle :public Triangle //равносторонний треугольник
 {

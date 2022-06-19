@@ -1,7 +1,5 @@
 #include "Header.h"
 
-#pragma once
-
 int sum_f(int x, int y)
 {
 	return x + y;

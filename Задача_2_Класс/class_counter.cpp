@@ -1,17 +1,9 @@
-#include "Header.h"
-
-class Counter
-{
-public:
-	Counter() { this->counter = 0; }
-	void set_counter(int x) { counter = x; }
-	void up_counter() { counter++; }
-	void down_counter() { counter--; }
-	void print_counter() { std::cout << counter << std::endl; }
-
-private:
-	int counter;
+#include "class_counter.h"
 
 
+Counter::Counter() { this->counter = 0; }
+	void Counter::set_counter(int x) { counter = x; }
+	void Counter::up_counter() { counter++; }
+	void Counter::down_counter() { counter--; }
+	void Counter::print_counter() { std::cout << counter << std::endl; }
 
-};

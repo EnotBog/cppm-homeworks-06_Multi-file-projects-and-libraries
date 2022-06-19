@@ -136,7 +136,7 @@
     <ClCompile Include="class_Rectangular_triangle.cpp" />
     <ClCompile Include="class_Rhomb.cpp" />
     <ClCompile Include="class_Square.cpp" />
-    <ClCompile Include="Parallelogram.cpp" />
+    <ClCompile Include="classParallelogram.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>

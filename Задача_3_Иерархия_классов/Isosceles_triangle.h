@@ -1,6 +1,5 @@
 ﻿#pragma once
-#include "Header.h"
-
+#include "Triagle.h"
 
 class Isosceles_triangle :public Triangle // равнобедренный треугольник
 {

@@ -19,7 +19,6 @@ int main()
 	SetConsoleOutputCP(1251);
 
 	int a = 0, b = 0, buf = 0;
-	std::string q;
 
 
 

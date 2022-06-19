@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Header.h"
+#include "Parallelogram.h"
 
 class My_Rectangle : public Parallelogram // Прямоугольник
 {

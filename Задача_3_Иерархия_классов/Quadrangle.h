@@ -1,5 +1,5 @@
 ﻿#pragma once
-#include "Header.h"
+#include "Figure.h"
 
 class Quadrangle : public Figure
 {

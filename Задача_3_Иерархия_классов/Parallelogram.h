@@ -1,6 +1,6 @@
 ﻿#pragma once
 
-#include "Header.h"
+#include "Quadrangle.h"
 
 class Parallelogram : public Quadrangle // параллелограмм
 {

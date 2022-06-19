@@ -1,4 +1,4 @@
-﻿#include "Header.h"
+﻿#include "Quadrangle.h"
 
 Quadrangle ::Quadrangle() { };
 

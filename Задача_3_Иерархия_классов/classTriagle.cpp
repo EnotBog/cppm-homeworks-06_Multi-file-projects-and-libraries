@@ -1,4 +1,4 @@
-﻿#include "Header.h"
+﻿#include "Triagle.h"
 
 
 	Triangle::Triangle() { sides_count = 3; }

@@ -6,7 +6,7 @@
 #include <windows.h>
 #include <locale.h>
 #include <fstream>
-#include "class_counter.cpp"
+#include "class_counter.h"
 
 
 
